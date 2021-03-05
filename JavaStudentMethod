@@ -42,7 +42,10 @@ public class Student
         // put your code here
         return x + y;
     }*/
-    void generateStudentID( String stdId){}
+    generateStudentID(2);
+    void generateStudentID( String stdID){
+    stdId = stdID;
+    }
     
     void editStudentID(){} 
     
@@ -56,10 +59,11 @@ public class Student
     
     String getStudentID(){return stdId; }
     
-  //  String getStudentname(){}
+    String getStudentname(){return stdName;}
     
-   // String getRegisteredDegree(){}
+    String getRegisteredDegree(){return stdDegree;}
     
-   // String getRegisteredGPA(){}
+    String getRegisteredGPA(){return GPA;}
 }
+
 
